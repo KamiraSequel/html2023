@@ -1,0 +1,16 @@
+div{
+    float: left;
+    border: 10px gold solid;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    overflow: hidden;
+    outline-color: black;
+    outline-width: 15px;
+    outline-style:double;
+    padding: 20px;
+}
+
+#div2{
+visibility: hidden;
+}

@@ -1,0 +1,42 @@
+div img{
+    width: 100%;
+    max-width: 600px;
+}
+div{
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+}
+@media (max-width: 576px) {
+    /* mobil */
+    .laptop, .desktop{
+        display: none;
+    }
+}
+
+.mobil{
+    background-image: url(../curs2/img/apple-touch-icon.png);
+    background-size: cover;
+}
+
+@media (min-width: 578px) and (max-width: 768px) {
+    /* laptop */
+    .mobil, .desktop{
+        display: none;
+    }
+}
+
+.laptop{
+    background-image: url(../curs2/img/mstile-150x150.png);
+    background-size: cover;
+}
+
+@media (min-width: 769px) {
+    /* desktop */
+    .mobil, .laptop{
+        display: none;
+    }
+}
+.desktop{
+    background-image: url(../curs2/img/Untitled-54.png);
+}
