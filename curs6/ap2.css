@@ -1,0 +1,22 @@
+input{
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+}
+
+h1{
+    font-style: normal;
+    font-size: large;
+    border-bottom: solid darkgreen 2px;
+}
+
+div{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
