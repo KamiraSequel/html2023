@@ -1,0 +1,14 @@
+.pargo{
+    border: 4px rgb(46, 45, 45) solid;
+    padding: 20px;
+    margin: 20px ;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.foto{
+    border: 4px rgb(46, 45, 45) solid;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}

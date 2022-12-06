@@ -1,0 +1,44 @@
+ul{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 0px;
+    background-color: rgb(49, 48, 48);
+    text-align: center;
+}
+
+ul >li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li:hover, .active{
+    color: blue;
+    background-color: red;
+}
+
+ul>li ul.submenu{
+    display: none;
+}
+
+ul>li:hover{
+    position: relative;
+}
+
+ul>li:hover ul.submenu{
+    z-index: 2;
+    width: 150px;
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.submenu li{
+    display: inline-block;
+}
